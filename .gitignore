@@ -3,4 +3,3 @@ node_modules
 /example/awesome-typescript-loader.js
 /example/ts-loader.js
 /lib
-.vscode

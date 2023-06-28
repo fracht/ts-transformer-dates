@@ -1,0 +1,7 @@
+{
+	"extends": ["@sirse-dev/eslint-config"],
+	"rules": {
+		"unicorn/expiring-todo-comments": "off",
+		"unicorn/prefer-module": "off"
+	}
+}
