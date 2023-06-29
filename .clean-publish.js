@@ -1,6 +1,10 @@
+/**
+ * @type {import('clean-publish').Config}
+ */
 module.exports = {
     withoutPublish: true,
     tempDir: 'prepared-package',
+    fields: ['scripts'],
     files: [
         'docs',
         'src',
@@ -18,6 +22,10 @@ module.exports = {
         /^syncpack\.config\.(js|cjs)$/,
         '.config',
         'playground',
-        'pnpm-workspace.yaml'
+        'pnpm-workspace.yaml',
+        'example',
+        'tests',
+        '.npmrc',
+        'jestconfig.json'
     ],
 };
